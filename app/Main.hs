@@ -3,4 +3,4 @@ module Main where
 import Problem1
 
 main :: IO ()
-main = problem1
+main = print $ problem1 999
