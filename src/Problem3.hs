@@ -1,6 +1,6 @@
 module Problem3
-    ( problem3
+    ( solution
     ) where
 
-problem3 :: String
-problem3 = "Problem 3"
+solution :: String
+solution = "Solution 3"

@@ -1,11 +1,13 @@
 module Main where
 
-import Problem1
-import Problem2
-import Problem3
+import qualified Problem1
+import qualified Problem2
+import qualified Problem3
+import qualified Problem4
 
 main :: IO ()
 main = do
-  print $ problem1 999
-  print problem2
-  print problem3
+  putStrLn $ "Problem 1: " ++ show Problem1.solution
+  putStrLn $ "Problem 2: " ++ show (Problem2.solution 4000000)
+  putStrLn $ "Problem 3: " ++ show Problem3.solution
+  putStrLn $ "Problem 4: " ++ show (Problem4.solution 100)
