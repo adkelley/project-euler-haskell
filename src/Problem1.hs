@@ -5,6 +5,6 @@ module Problem1
 multiples :: Integer -> Integer -> Integer -> Bool
 multiples m1 m2 x = rem x m1 == 0 || rem x m2 == 0
 
-solution :: Integer
-solution =
-  sum $ filter (multiples 3 5) [1..999]
+solution :: Integer -> Integer
+solution maxNum =
+  sum $ filter (multiples 3 5) [1..maxNum]

@@ -1,5 +1,5 @@
 module Problem3
-    ( solution, primeFactors
+    ( solution
     ) where
 
 -- Largest Prime Factor
