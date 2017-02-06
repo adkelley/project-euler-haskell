@@ -6,7 +6,7 @@
 1. Ensure that you have [stack](https://docs.haskellstack.org/en/stable/install_and_upgrade/)
 and [GHC](https://www.haskell.org/downloads) installed:
 
-2. install the project's dependencies:
+2. install the project's dependencies, and compile:
 ```sh
 stack build
 ```
