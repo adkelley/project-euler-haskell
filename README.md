@@ -3,14 +3,14 @@
 **See** [Project Euler](https://projecteuler.net/about) for background
 
 ## Steps:
-1. Ensure that you have [stack](https://docs.haskellstack.org/en/stable/install_and_upgrade/)
+* Ensure that you have [stack](https://docs.haskellstack.org/en/stable/install_and_upgrade/)
 and [GHC](https://www.haskell.org/downloads) installed:
 
-2. install the project's dependencies, and compile:
+* Install the project's dependencies, and compile:
 ```sh
 stack build
 ```
-3.  run the problems:
+*  Run the problems:
 ```sh
 stack exec project-euler-exe
 ```
